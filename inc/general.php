@@ -11,14 +11,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Remove random comment styles
  */
-add_filter('show_recent_comments_widget_style', '__return_false', 99);
+add_filter( 'show_recent_comments_widget_style', '__return_false', 99 );
 
 /**
  * Ensure that all script tags use defer
  */
 add_filter( 'script_loader_tag', function ( $tag ) {
 	if ( is_admin() ) {
-		return;
+		return $tag;
 	}
 
 	return preg_replace( '/(<script\b[^><]*)/i', '$1 defer', $tag );
@@ -29,7 +29,7 @@ add_filter( 'script_loader_tag', function ( $tag ) {
  */
 add_filter( 'style_loader_tag', function ( $tag ) {
 	if ( is_admin() ) {
-		return;
+		return $tag;
 	}
 
 	return preg_replace( '/(<link\b[^><]*)/i', '$1 defer', $tag );
