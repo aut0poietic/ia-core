@@ -31,34 +31,34 @@ All style link tags on the front-end will be given the `defer` attribute.
 Emoji script, styles, images removed. 
 
 ### Disable Author Pages
-Because no one reads these. Technique found in the (10up Experience Plugin)[https://github.com/10up/10up-experience]. Used Irresponsibly.
+Because no one reads these. Technique found in the [10up Experience Plugin](https://github.com/10up/10up-experience). Used Irresponsibly.
 
 ### Extra Headers!
 Everyone needs Headers. Now you have more. Adds `X-Frame-Options=sameorigin` to help with Click-jacking and `X-UA-Compatible=IE=edge` to make sure IE 11 uses its latest rendering engine for what it thinks are 'intranet' sites. 
 
-Click-jacking technique found in the (10up Experience Plugin)[https://github.com/10up/10up-experience]. Used Irresponsibly.
+Click-jacking technique found in the [10up Experience Plugin](https://github.com/10up/10up-experience). Used Irresponsibly.
 
 ### Gravity Forms Domain in Admin Notifications
 I don't always use Gravity Forms, but when I do, I need to know what site it came from.
 
-Technique found in the (EA-Core-Functionality Plugin by Bill Erickson)[https://github.com/billerickson/EA-Core-Functionality]. Used Irresponsibly.
+Technique found in the [EA-Core-Functionality Plugin by Bill Erickson](https://github.com/billerickson/EA-Core-Functionality). Used Irresponsibly.
 
 ### Default Image Link: None
 I forget to check the "link type" on images. Always.
 
-Technique found in the (EA-Core-Functionality Plugin by Bill Erickson)[https://github.com/billerickson/EA-Core-Functionality]. Used Irresponsibly.
+Technique found in the [EA-Core-Functionality Plugin by Bill Erickson](https://github.com/billerickson/EA-Core-Functionality). Used Irresponsibly.
 
 ### Remove Custom Fields Metabox
 Ya have to add this when you want meta to show up in REST. But who says you have to actually display it.
 
-Technique found in the (EA-Core-Functionality Plugin by Bill Erickson)[https://github.com/billerickson/EA-Core-Functionality]. Used Irresponsibly.
+Technique found in the [EA-Core-Functionality Plugin by Bill Erickson](https://github.com/billerickson/EA-Core-Functionality). Used Irresponsibly.
 
 
 ### Disable Trackbacks
 The idea of random sites adding content to a post gives me the willies. This removes that.
 
 Technique originally created by Christopher Davis.
-Technique found in the (EA-Core-Functionality Plugin by Bill Erickson)[https://github.com/billerickson/EA-Core-Functionality]. Used Irresponsibly.
+Technique found in the [EA-Core-Functionality Plugin by Bill Erickson](https://github.com/billerickson/EA-Core-Functionality). Used Irresponsibly.
 
 
 ## Delete-key Friendly!
